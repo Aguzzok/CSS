@@ -106,11 +106,14 @@ nav__items--footer{
 }
 
 .hero__cta{
-    display: inline-block;
+    position: absolute;
     background: #fff;
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 40px;
+    animation-name: agrandar;
+    animation-delay: 2.2s;
+    animation-duration: 1s;
 }
 
 .hero__wave{

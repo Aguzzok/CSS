@@ -25,7 +25,7 @@
     0% {
       opacity: 0;
       transform: translateX(-50%);
-      text-shadow: -2px 3px 0 rgba(255, 0, 0, 0.308), 2px -3px 0 rgba(0, 0, 255, 0.37);
+      text-shadow: -2px 3px 0 rgba(207, 207, 207, 0.308), 2px -3px 0 rgba(59, 59, 59, 0.37);
     };
     60% {
       opacity: 0.5;
@@ -34,7 +34,7 @@
     80% {
       transform: none;
       opacity: 1;
-      text-shadow: 2px -3px 0 rgba(255, 0, 0, 0.308), -2px 3px 0 rgba(0, 0, 255, 0.37);
+      text-shadow: 2px -3px 0 rgba(207, 207, 207, 0.308), -2px 3px 0 rgba(59, 59, 59, 0.37);
     }
     100% {
       text-shadow: none;
@@ -43,11 +43,17 @@
   
   @keyframes glitch {
     0% {
-      text-shadow: -2px 3px 0 rgba(255, 0, 0, 0.308), 2px -3px 0 rgba(0, 0, 255, 0.37);
+      text-shadow: -2px 3px 0 rgba(207, 207, 207, 0.308), 2px -3px 0 rgba(59, 59, 59, 0.37);
       transform: translate(var(--glitch-translate));
     }
     2% {
-      text-shadow: 2px -3px 0 rgba(255, 0, 0, 0.308), -2px 3px 0 rgba(0, 0, 255, 0.37);
+      text-shadow: 2px -3px 0 rgba(207, 207, 207, 0.308), -2px 3px 0 rgba(59, 59, 59, 0.37);
     }
     4%, 100% {  text-shadow: none; transform: none; }
+  }
+
+  @keyframes agrandar{
+    0%{scale: 1;}
+    50%{scale: 1.4;}
+    100%{scale: 1;}
   }
