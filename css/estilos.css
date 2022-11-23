@@ -94,6 +94,8 @@ nav__items--footer{
 
 .hero__title{
     font-size: 3.2rem;
+    animation-name: slidein;
+    animation-duration: 1.5s;
 }
 
 .hero__subtitle{
@@ -137,6 +139,18 @@ nav__items--footer{
     width: 80%;
     margin: 0 auto;
 
+
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+      }
 }
 
 .presentation__cta{
@@ -151,7 +165,6 @@ nav__items--footer{
 }
 
 .about{
-    border: 1px solid red;
     min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -162,19 +175,36 @@ nav__items--footer{
 
 .about__img{
     text-align: center;
-    border: 1px solid green;
+    
 }
 
 .about__img img{
-    width: 350px;
-    border-radius: 50%;
-    border: 1px solid pink;
-    
-
+ margin-top: 10px;
+ border-radius: 10px;
+ box-shadow: 4px 2px 3px #cacaca;
+ transition: 0.2s;
 }
+
+.about__img img:hover{
+    transform: scale(1.07);
+}
+
 
 .about__img--left{
     text-align: left;
+    
+}
+
+#about_picture{
+    margin-top: 60px;
+    width: 70%;
+
+}
+
+#about_picture2{
+    margin-left: 60px;
+    width: 70%;
+    box-shadow: -4px 2px 3px #cacaca
 }
 
 .about_picture{
