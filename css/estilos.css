@@ -116,6 +116,13 @@ nav__items--footer{
     animation-duration: 1s;
 }
 
+.hero__cta:hover{
+    transition: all 0.1s;
+    transform: scale(1.05);
+    
+
+}
+
 .hero__wave{
     position: absolute;
     bottom: 0;
