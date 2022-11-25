@@ -265,6 +265,10 @@ nav__items--footer{
     
 }
 
+#typed{
+    position: relative;
+}
+
 #about_picture{
     margin-top: 60px;
     width: 65%;

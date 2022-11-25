@@ -57,3 +57,25 @@
     50%{scale: 1.4;}
     100%{scale: 1;}
   }
+
+#typed::after{
+  content: "";
+  background: #fff;
+  border: 1px solid red;
+  border-left: 3px solid black;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  animation: tipeo 2s infinite alternate steps(13);
+
+}
+
+@keyframes tipeo{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 0;
+  }
+}
