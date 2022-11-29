@@ -214,3 +214,20 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; }
 
+
+#pz1{
+  object-position: -30vh;
+
+}
+
+#pz1:hover{
+  transition: ease .3s;
+    transform: scale(1.045);
+}
+
+#pz:hover{
+    transition: ease .3s;
+    transform: scale(1.045);
+}
+  
+  

@@ -115,6 +115,7 @@ nav__items--footer{
 .hero__cta{
     position: absolute;
     background: #fff;
+    color: #7549a1;
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 40px;
@@ -233,7 +234,7 @@ nav__items--footer{
     
     display: inline-block;
     margin-top: 50px;
-    background: #667eea;
+    background: rgb(108,99,255);
     color: #fff;
     text-decoration: none;
     padding: 20px 40px;
@@ -308,11 +309,8 @@ nav__items--footer{
 }
 
 .projects__grid{
-    display: grid;
-    height: 550px;
-    grid-template-areas:
-    "img1 img1 img2 img3"
-    "img1 img1 img4 img5";
+    border: 1px solid red;
+    display: flex;
     gap: 10px;
 }
 
@@ -321,7 +319,7 @@ img{
 }
 
 .projects__items{
- position: absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
 }
