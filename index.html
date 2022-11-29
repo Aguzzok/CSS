@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/efectos.css">
+    <link rel="stylesheet" type="text/css" href="csshake.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +18,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="" id="nav2" class="nav__items--cta">Contactame</a>
-                <a href="" id="nav1" class="nav__items">Sobre mi</a>
+                <a href="#Presentacion" id="nav1" class="nav__items">Sobre mi</a>
                 <a href="" id="nav1" class="nav__items">Proyectos</a>
             </nav>
 
@@ -37,45 +39,43 @@
     </header>
 
     <main>
-        <section class="presentation container">
+        <section id="Presentacion" class="presentation container">
             <div id="flip">
-                <div class="face front">
+                <div class="face front" data-aos="flip-left">
                     <img id="a1" src="assets/aguz5.jpg" alt="">
                 </div>
-                <div class="face back">
+                <div class="face back" data-aos="flip-left">
                     <img id="a2" src="assets/FINAAAAAL-2.png" alt="">
                 </div>
         </div>
-            <h2 class="myPresentation">Mi nombre es: Agustin Taverna</h2>
-            <p class="presentation__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem explicabo ipsam optio tempora voluptates labore, esse earum nulla. Repudiandae necessitatibus eligendi eius repellat suscipit pariatur libero. Laborum voluptate ea ipsum?</p>
-            <a href="" class="presentation__cta">Contactame ahora</a>
+            <h2 class="myPresentation">Mi nombre es: <span id="presentationn" class="shake-little">Agustin Taverna</span></h2>
+            <p class="presentation__copy" data-aos="zoom-in-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem explicabo ipsam optio tempora voluptates labore, esse earum nulla. Repudiandae necessitatibus eligendi eius repellat suscipit pariatur libero. Laborum voluptate ea ipsum?</p>
+            <a href="" class="presentation__cta" >Contactame ahora</a>
         </section>
 
         <section class="about container">
             <div class="about__texts">
-                <h2 id="typed" class="subtitle">Mis habilidades</h2>
+                <h2 class="subtitle" data-aos="fade-left">Mis habilidades</h2>
 
-                <p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!</p>
-
-                <p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!</p>
+                <p class="about_paragraph" data-aos="fade-up"
+                data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!</p>
             </div>
 
 
-            <figure class="about__img" >
+            <figure class="about__img" data-aos="zoom-in">
                 <img src="assets/1q.svg" alt="" class="about__picture" id="about_picture">
             </figure>
 
-            <figure class="about__img about__img--left">
+            <figure class="about__img about__img--left" data-aos="zoom-in">
                 <img src="assets/2q.svg" alt="" id="about_picture2">
             </figure>
 
 
             <div class="about__texts">
-                <h2 class="subtitle">Sobre mi trabajo</h2>
+                <h2 class="subtitle" data-aos="fade-right">Sobre mi trabajo</h2>
 
-                <p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!</p>
-
-                <p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!</p>
+                <p class="about_paragraph" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto harum blanditiis amet consequuntur perferendis voluptatibus necessitatibus, quis officiis repellat nisi? Voluptate cum dolore et at temporibus iusto mollitia facere neque!</p>
             </div>
         </section>
 
@@ -163,9 +163,12 @@
     
     
     
-    
-
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/6f11db58d3.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
