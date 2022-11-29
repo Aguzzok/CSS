@@ -58,39 +58,6 @@
     100%{scale: 1;}
   }
 
-/*EFECTO TIPEO↓↓*/
-
-/* #typed::after{ 
-  content: "";
-  background: #fff;
-  border-left: 3px solid black;
-  margin-top: 6px;
-  width: 0%;
-  height: 75%;
-  right: 44px;
-  position: absolute;
-  animation: tipeo 2s steps(25);
-
-}
-
-@keyframes tipeo{
-  from{
-    width: 100%;
-  }
-  to{
-    width: 0;
-  }
-}
- */
-
- /*! * * * * * * * * * * * * * * * * * * * *\  
-  CSShake :: shake-little
-  v1.5.0
-  CSS classes to move your DOM
-  (c) 2015 @elrumordelaluz
-  http://elrumordelaluz.github.io/csshake/
-  Licensed under MIT
-\* * * * * * * * * * * * * * * * * * * * */
 .shake-little {
   display: inherit;
   transform-origin: center center; }
@@ -217,17 +184,19 @@
 
 #pz1{
   object-position: -30vh;
+  object-fit: cover;
 
 }
 
 #pz1:hover{
   transition: ease .3s;
-    transform: scale(1.045);
+    transform: scale(1.03);
 }
 
 #pz:hover{
     transition: ease .3s;
-    transform: scale(1.045);
+    transform: scale(1.03);
 }
-  
+
+
   

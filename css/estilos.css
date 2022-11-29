@@ -309,7 +309,6 @@ nav__items--footer{
 }
 
 .projects__grid{
-    border: 1px solid red;
     display: flex;
     gap: 10px;
 }
@@ -347,13 +346,6 @@ img{
     grid-area: img4;
 }
 
-.projects__items:nth-of-type(5){
-    grid-area: img5;
-}
-
-.projects__hover{
-    display: flex;
-}
 
 .projects__title{
     margin-top: 50px;
@@ -364,3 +356,39 @@ img{
 .shake-little{
     display: flex;
 }
+
+#testi{
+    overflow: visible;
+}
+
+.testimony__img{
+    position: absolute;
+    display: flex;
+    width: 96px;
+    border-radius: 50%;
+    overflow: visible;
+    
+}
+.testimony__texts{
+    padding-left: 115px;
+}
+
+.testimony__review{
+    padding-top: 14px;
+}
+.testimony__name{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+.testimonio{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.testimony__img:hover{
+    transition: all .3s;
+    transform: scale(1.2);
+}
+
+
