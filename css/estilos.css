@@ -304,6 +304,7 @@ nav__items--footer{
 
 .projects{
     background: #f2f2f2;
+    height: 100vh;
 
 
 }
@@ -330,22 +331,6 @@ img{
     cursor: pointer;
 }
 
-.projects__items:nth-of-type(1){
-    grid-area: img1;
-}
-
-.projects__items:nth-of-type(2){
-    grid-area: img2;
-}
-
-.projects__items:nth-of-type(3){
-    grid-area: img3;
-}
-
-.projects__items:nth-of-type(4){
-    grid-area: img4;
-}
-
 
 .projects__title{
     margin-top: 50px;
@@ -357,8 +342,11 @@ img{
     display: flex;
 }
 
-#testi{
+#testimony__cont{
     overflow: visible;
+    height: 93vh;
+    width: 90%;
+    padding-bottom: 30px;
 }
 
 .testimony__img{
@@ -369,6 +357,8 @@ img{
     overflow: visible;
     
 }
+
+
 .testimony__texts{
     padding-left: 115px;
 }
@@ -383,12 +373,52 @@ img{
 
 .testimonio{
     font-size: 2.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .testimony__img:hover{
     transition: all .3s;
     transform: scale(1.2);
 }
+
+.testimony__item:nth-child(1){
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.testimony__item:nth-child(2){
+    padding-bottom: 70px;
+}
+
+.testimony__verification{
+    color: #222;
+}
+
+.footer{
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #000;
+    
+}
+
+
+
+.footer__icons{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer__container-icons a{
+    text-decoration: none;
+    color: #fff;  
+}
+
+.footer__icons a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
 
 
