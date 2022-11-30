@@ -189,7 +189,7 @@
 }
 
 #pz1:hover{
-  transition: ease .3s;
+    transition: ease .3s;
     transform: scale(1.03);
 }
 

@@ -81,8 +81,8 @@
         </section>
 
         <section id="Proyectos" class="projects">
-            <div class="container">
-                <h2 class="subtitle" data-aos="zoom-in" data-aos-duration="1200">Mis proyectos</h2>
+            <div class="container" id="proyectos__container">
+                <h2 id="proyectos" class="subtitle" data-aos="zoom-in" data-aos-duration="1200">Mis proyectos</h2>
                 <div class="projects__grid">
 
 
@@ -117,14 +117,14 @@
             </div>
         </section>
 
-        <section id="testimony__cont" class="testimony container">
-            <h2 class="testimonio">¿Qué dicen de nosotros?</h2>
+        <section id="testimony__cont">
+            <h2 class="container h2testimony">¿Qué dicen de mi?</h2>
 
-            <div data-aos="zoom-in" class="testimony__grid">
+            <div data-aos="zoom-in" id="container__testimony">
                 <article class="testimony__item">
                     <div class="testimony__person">
                         <a href="https://www.linkedin.com/in/elias-gauto/" target="_blank" rel="noopener noreferrer"><img src="/assets/1665516121451.jpg" class="testimony__img"></a>
-                        <div class="testimony__texts">
+                        <div class="testimony__texts" id="text__container">
                             <h3 class="testimony__name">Elias Gauto</h3>
                             <p class="testimony__verification">Node JS Developer - Ejercito Argentino</p>
                             <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos perferendis quo quae, nesciunt illum ratione error deleniti esse maiores assumenda facilis mollitia.</p>
@@ -152,33 +152,28 @@
                     </div>
                 </article>
             </div>
+            <footer id="footer">
+                <section class="footer__contact">
+                    <div class="footer__icons">
+                        <span class="footer__container-icons">
+                            <a class="fa-brands fa-instagram" href="#"></a>
+                        </span>
+                        <span class="footer__container-icons">
+                            <a class="fa-brands fa-linkedin" href="#"></a>
+                        </span>
+                        <a href=""><h3 class="footer__title">Contactame</h3></a>
+                        <span class="footer__container-icons">
+                            <a class="fa-brands fa-github" href="#"></a>
+                        </span>
+                        <span class="footer__container-icons">
+                            <a class="fa-brands fa-google" href="#"></a>
+                        </span>
+                    </div>
+                </section>
+        </footer>
         </section>
 
-    </main>
-
-    <footer class="footer">
-            <section class="footer__contact">
-                <div class="footer__icons">
-                    <span class="footer__container-icons">
-                        <a class="fa-brands fa-instagram" href="#"></a>
-                    </span>
-                    <span class="footer__container-icons">
-                        <a class="fa-brands fa-linkedin" href="#"></a>
-                    </span>
-                    <a href=""><h3 class="footer__title">Contactame</h3></a>
-                    <span class="footer__container-icons">
-                        <a class="fa-brands fa-github" href="#"></a>
-                    </span>
-                    <span class="footer__container-icons">
-                        <a class="fa-brands fa-google" href="#"></a>
-                    </span>
-                </div>
-            </section>
-    </footer>
-
-    
-    
-    
+    </main> 
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/6f11db58d3.js" crossorigin="anonymous"></script>

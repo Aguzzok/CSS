@@ -309,6 +309,14 @@ nav__items--footer{
 
 }
 
+#proyectos{
+    margin-bottom: 80px;
+}
+
+#proyectos__container{
+    height: 100vh;
+}
+
 .projects__grid{
     display: flex;
     gap: 10px;
@@ -333,7 +341,6 @@ img{
 
 
 .projects__title{
-    margin-top: 50px;
     position: absolute;
 
 }
@@ -342,12 +349,7 @@ img{
     display: flex;
 }
 
-#testimony__cont{
-    overflow: visible;
-    height: 93vh;
-    width: 90%;
-    padding-bottom: 30px;
-}
+
 
 .testimony__img{
     position: absolute;
@@ -358,9 +360,18 @@ img{
     
 }
 
+#container__testimony{
+    width: 90%;
+    margin: 0 auto;
+    overflow: visible;
+    max-width: 1200px;
+}
+
 
 .testimony__texts{
+    padding-top: 0.7%;
     padding-left: 115px;
+    overflow: visible;
 }
 
 .testimony__review{
@@ -371,9 +382,12 @@ img{
     padding-bottom: 5px;
 }
 
-.testimonio{
+.h2testimony{
     font-size: 2.5rem;
-    margin-bottom: 20px;
+}
+
+.text__container{
+    
 }
 
 .testimony__img:hover{
@@ -381,30 +395,27 @@ img{
     transform: scale(1.2);
 }
 
-.testimony__item:nth-child(1){
-    padding-bottom: 70px;
-    padding-top: 30px;
+.testimony__item{
+    padding-bottom: 7%;
 }
 
-.testimony__item:nth-child(2){
-    padding-bottom: 70px;
+.testimony__item:nth-child(3){
+    margin-bottom: 11%;
 }
+
 
 .testimony__verification{
     color: #222;
 }
 
-.footer{
+#footer{
     font-size: 2rem;
-    padding-top: 10px;
-    padding-bottom: 5px;
     background: #000;
-    
+    padding-bottom: 10px;
 }
 
-
-
 .footer__icons{
+    padding-top: 15px;
     display: flex;
     justify-content:space-evenly;
 }
