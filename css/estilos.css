@@ -423,6 +423,8 @@ img{
 
 
 #footer{
+    min-width:max-content;
+
     margin-top: 170px;
     font-size: 2rem;
     background: #000;
