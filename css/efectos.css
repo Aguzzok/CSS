@@ -183,7 +183,8 @@
 
 
 #pz1{
-  object-position: -30vh;
+  max-width: 2000px;
+  object-position: -400px;
   object-fit: cover;
 
 }
